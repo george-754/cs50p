@@ -92,16 +92,16 @@ Uses `emoji` library
 Uses library `pyfiglet`
 
 ### adieu.py
-`python3 adieu.py` - prompt user for names, one per line, until user inputs `control-d`. Outputs adieu to those names. Uses library [inflect](pypi.org/project/inflect)
+`python3 adieu.py` - prompt user for names, one per line, until user inputs `control-d`. Outputs adieu to those names. Uses library [inflect](https://pypi.org/project/inflect)
 
 ### game.py
-`python3 game.py` - guessing game that gets user input for a level which is the maximum number for the range of numbers to guess from. Then prompts user to guess that number outputting `Too small!`, `Too large!`, or `Just right!` until the number is guessed. Uses library [random](docs.python.org/3/library/random.html).
+`python3 game.py` - guessing game that gets user input for a level which is the maximum number for the range of numbers to guess from. Then prompts user to guess that number outputting `Too small!`, `Too large!`, or `Just right!` until the number is guessed. Uses library [random](https://docs.python.org/3/library/random.html).
 
 ### professor.py
-`python3 professor.py` - prompt user for a level `1`, `2`, or `3`. Then randomly generates 10 math problems formatted as `X + Y =`. Then prompts user to solve each of those problems. If an answer is not correct up to three times then the program will output the correct answer. The program will output the user's score, a number out of 10. Uses [random](docs.python.org/3/library/random.html) module
+`python3 professor.py` - prompt user for a level `1`, `2`, or `3`. Then randomly generates 10 math problems formatted as `X + Y =`. Then prompts user to solve each of those problems. If an answer is not correct up to three times then the program will output the correct answer. The program will output the user's score, a number out of 10. Uses [random](https://docs.python.org/3/library/random.html) module
 
 ### bitcoin.py
-`python3 bitcoin.py *shares*` - Outputs the current cost of shares of bitcoin in USD to four decimal places, using `,` as a thousands separator. Uses `sys` module and [requests](requests.readthedocs.io/en/latest) module
+`python3 bitcoin.py *shares*` - Outputs the current cost of shares of bitcoin in USD to four decimal places, using `,` as a thousands separator. Uses `sys` module and [requests](https://requests.readthedocs.io/en/latest/) module
 
 ### test_*app*.py
 Uses `pytest` to test these apps.
