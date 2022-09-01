@@ -43,26 +43,26 @@
 ### camel.py
 `python3 camel.py` - prompts user for the name of a variable in camel (`firstName`) case and outputs the corresponding name in snake case (`first_name`).
 
-## coke.py
+### coke.py
 `python3 coke.py` - prompt user to insert a coin (`25`, `10`, `5`), one at a time, each time informing the user of the amount due. Once the user has inputted at least 50 cents, then output how many cents in change the user is owed.
 
-## twttr.py
+### twttr.py
 `python3 twttr.py` - prompt user for a `str` of text and then outputs that same text but with all vowels (A, E, I, O and U) omitted.
 
-## plates.py
+### plates.py
 `python3 plates.py` - prompt the user for a vanity plate and then output `Valid` if meets all of the requirements or `Invalid` if it does not. Any letters in the input should be uppercase. Format:
 - All vanity plates must start with at least two letters.
 - Vanity plates may contain a maximum of 6 characters (letters or numbers) and a minimum of 2 characters.
 - Numbers cannot be used in the middle of a plate. They must come at the end. The first number used cannot be a `0`.
 - No periods, spaces, or punctuation marks are allowed.
 
-## nutrition.py
+### nutrition.py
 `python3 nutrition.py` - prompt user to input a fruit and then outputs the number of calories in one portion of that fruit, per the FDA's poster for fruits.
 
-## fuel.py
+### fuel.py
 `python3 fuel.py` prompt user for a fraction, formatted as `X/Y`, where `X` and `Y` is an integer, and then outputs, as a percentage rounded to the nearest integer, how much fuel is in the tank.
 
-## taqueria.py
+### taqueria.py
 `python3 taqueria.py` - place an order entering one item at a time, when done press `control-d`. After each item is entered the total cost will be displayed of all the items entered. Menu:
 ```
 Baja Taco
