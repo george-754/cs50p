@@ -106,5 +106,40 @@ Uses library `pyfiglet`
 ### test_*app*.py
 Uses `pytest` to test these apps.
 
-### todo
-File i/o problem set 6
+### lines.py
+`python3 lines.py *file.py*` - outputs the number of lines of code in a file, excluding comments and blank lines. 
+
+### pizza.py
+`python3 pizza.py *file.csv*` - outputs a table formatted as ASCII art using [tabulate](https://pypi.org/project/tabulate), a package on PyPI.
+
+### scourgify.py
+`python3 scourgify.py *existing.csv* *output.csv*` - converts the existing.csv to the output.csv, splitting each name into a first name and a last name. Uses [csv](https://docs.python.org/3/library/csv.html) module.
+
+### shirt.py
+`python3 shirt.py *input.jpeg or .png* *output.jpeg or .png*` - program that overlays shirt.png on the input after resizing and cropping the input to be the same size and saves the result as its output. Uses [Pillow](https://pypi.org/project/Pillow/) package.
+
+### numb3rs.py
+`python3 numb3rs.py` - gets an IPv4 address as input as a `str` and then returns `True` or `False`, respectively, if that input is a valid IPv4 address or not. Uses `re` module. [Regular Expressions](https://docs.python.org/3/library/re.html)
+
+### watch.py
+`python3 watch.py` - gets a `str` input of HTML, extracts any YouTube URL that's the value of a `src` attribute of an `iframe` element therein, and returns its shorter, shareable `youtu.be` equivalent as a `str`. Expected input formats:
+```
+- http://youtube.com/embed/xvFZjo5PgG0
+- https://youtube.com/embed/xvFZjo5PgG0
+- https://www.youtube.com/embed/xvFZjo5PgG0
+```
+
+### working.py
+`python3 working.py` - gets input as a `str` in either of the 12-hour formats `9:00 AM to 5:00 PM` or `9 AM to 5 PM` and outputs a `str` in 24-hour format `9:00 to 17:00`. `AM` and `PM` must be capitalized with no periods therein and a space before each. Uses [re](https://docs.python.org/3/library/re.html) module.
+
+### um.py
+`python3 um.py` - get input as a `str` and returns, as an `int`, the number of times that "um" appears in that text, case-insensitively, as a word unto itself, not as a substring of some other word. uses [re](https://docs.python.org/3/library/re.html) module.
+
+### response.py
+`python3 response.py` - prompts user for an email address and then prints `Valid` or `Invalid`, respectively, if the input is a syntatically valid email address. Makes use of eiter or `validator-collection` or `validators` packages.
+
+### seasons.py
+`python3 seasons.py` - prompts user for their date of birth in `YYYY-MM-DD` format and then prints how old they are in minutes, rounded to the nearest integer, using English words instead of numerals, just like the song from *Rent*, without any `and` between words. Uses the `date` class and [inflect](https://pypi.org/project/inflect/) module.
+
+### jar.py
+`jar.py` is a custom python class file. And `test_jar.py` is used to test the `jar.py` class file. 
